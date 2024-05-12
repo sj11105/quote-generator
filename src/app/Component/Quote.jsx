@@ -27,14 +27,14 @@ export default function Quote() {
   return (
     <>
     <div>
-    <div className='bg-pink-100 p-3 mt-32 w-36 ml-[640px] items-center text-center'>
+    <div className='bg-pink-100 p-3 mt-32 w-36 ml-[630px] items-center text-center rounded-lg'>
       <button onClick={fetchData} disabled={loading}>Generate Random Quote</button>
       {loading && <p>Loading...</p>}
    
       {error && <p>Error: {error}</p>}
      
     </div>
-    <div class="card ml-[120px] mt-[80px] bg-purple-100">
+    <div class="card ml-[523px] mt-[80px] bg-purple-100 w-[320px] h-[180px] rounded-xl justify-center text-center m-auto">
   <div class="card-header">
    
   </div>
